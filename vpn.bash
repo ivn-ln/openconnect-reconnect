@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ $# -lt 1 ]]; then
+if [[ $# < 1 ]]; then
 	echo "Usage: $0 <IP_ADDRESS> [USER] [PASSWORD] [CERTIFICATE]"
 	exit 1
 fi

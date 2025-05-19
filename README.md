@@ -9,8 +9,8 @@ VPN_PASS="${3:-replace this}"
 
 # Regex pattern for output to ignore
 FILTER_PATTERN="replace this"
-# Regex pattern to reconnect on
-RECONNECT_PATTERN="CSTP Dead Peer Detection detected dead peer!|DTLS handshake failed: Resource temporarily unavailable, try again."
+# Timeout time for pings
+TIMEOUT_TIMER=10
 ```
 
 Usage: `vpn.bash <IP_ADDRESS> [USER] [PASSWORD] [CERTIFICATE]`
