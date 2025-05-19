@@ -13,4 +13,4 @@ FILTER_PATTERN="replace this"
 RECONNECT_PATTERN="CSTP Dead Peer Detection detected dead peer!|DTLS handshake failed: Resource temporarily unavailable, try again."
 ```
 
-Usage: `script <IP_ADDRESS> [USER] [PASSWORD] [CERTIFICATE]`
+Usage: `vpn.bash <IP_ADDRESS> [USER] [PASSWORD] [CERTIFICATE]`
