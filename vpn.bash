@@ -16,7 +16,7 @@ TIMEOUT_TIME=5
 # FIFO for the password
 PIPE_PATH=/tmp/vpn
 if [[ ! -e "$PIPE_PATH" ]]; then
-	mkfifo $"PIPE_PATH"
+	mkfifo "$PIPE_PATH"
 fi
 
 # Kill all openconnect instances (mostly for debug purposes) and remove the pipe
